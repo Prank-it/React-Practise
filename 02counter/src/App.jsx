@@ -8,12 +8,16 @@ function App() {
   //let counter = 5 ;
 
   const addValue = () => {
+    if(counter<=19)
+    {
     counter++;
+    }
     setCounter(counter);
 
   }
   const deleteValue =() =>
   {
+    if(counter>=1)
     counter--;
     setCounter(counter);
   }
